@@ -43,7 +43,7 @@ int linearSearch(vector<int> &a, int key)
     return -1; // key not found
 }
 
-// binary search
+// binary search -> array should be sorted for binary search 
 int binarySearch(vector<int> &a, int key) // log n (base 2)
 {
     int low = 0;
@@ -99,6 +99,7 @@ int main()
 
     // vector<int> v = {23, 45, 67};
     // cout << linearSearch(v, -89) << endl;
+    
     // stl to reverse an array
     // reverse(arr.begin(),arr.end())
 
