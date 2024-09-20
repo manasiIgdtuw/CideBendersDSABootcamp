@@ -90,7 +90,8 @@ int main(){
 
 // //stack<data_type> indentifier
 // stack<int> s1;
-// s1.push(23); // 23
+//All functions pop , push , top , empty , size take O(1) time complexity
+// s1.push(23);// 23
 // s1.push(67); // 23,67
 // s1.push(89); // 23,67,89
 // //s1.pop(); //23,67
